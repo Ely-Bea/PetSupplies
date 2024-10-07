@@ -1,0 +1,38 @@
+[
+    {
+        "id": 19,
+        "name": "Modern Living Lhasa Double-walled Premium Bowl",
+        "price": 129,
+        "image": "assets/lhasa.jpg"
+    },
+    {
+        "id": 20,
+        "name":"Modern Living Cape Town 2-in-1 Bed",
+        "price": 1750,
+        "image": "assets/modern.jpg"
+    },
+    {
+        "id": 21,
+        "name":"TIAKI Pet Bed Throne",
+        "price": 1119,
+        "image": "assets/tiaki.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Nomad Tales Bloom Dog Collar",
+        "price": 250,
+        "image": "assets/nomad.jpg"
+    },
+    {
+        "id": 23,
+        "name":"Trixie Berto Cat Litter Tray",
+        "price": 1024,
+        "image": "assets/trixie.jpg"
+    },
+    {
+        "id": 24,
+        "name":"Nomad Tales Bloom Tennis Ball Set",
+        "price": 99,
+        "image": "assets/tales.jpg"
+    }
+]

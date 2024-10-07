@@ -1,0 +1,38 @@
+[
+    {
+        "id": 13,
+        "name": "kooa Flea Comb",
+        "price": 24,
+        "image": "assets/kooa.jpg"
+    },
+    {
+        "id": 14,
+        "name":"Trixie Neutral Shampoo 1L",
+        "price": 399,
+        "image": "assets/strixie.jpg"
+    },
+    {
+        "id": 15,
+        "name":"Vetericyn Plus Wound & Skin Protection Spray 89mL",
+        "price": 199,
+        "image": "assets/vetericyn.jpg"
+    },
+    {
+        "id": 16,
+        "name": "FURminator DeShedding Tool ",
+        "price": 120,
+        "image": "assets/furminator.jpg"
+    },
+    {
+        "id": 17,
+        "name":"HUNTER Ladybird Rubber Bathing Brush",
+        "price": 74,
+        "image": "assets/hunter.jpg"
+    },
+    {
+        "id": 18,
+        "name":"Pedigree Dentastix Toothbrush Mixed Berry Treat 150g",
+        "price": 145,
+        "image": "assets/pedigree-denta.jpg"
+    }
+]

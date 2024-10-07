@@ -1,0 +1,38 @@
+[
+    {
+        "id": 7,
+        "name": "Ultima Fit & Delicious 12 x 5g",
+        "price": 240,
+        "image": "assets/ultima.jpg"
+    },
+    {
+        "id": 8,
+        "name":"Catessy Mini Sticks 12 x 2g",
+        "price": 139,
+        "image": "assets/catessy.jpg"
+    },
+    {
+        "id": 9,
+        "name":"Rosie's Farm Cat Snack Sticks - Chicken 50g",
+        "price": 150,
+        "image": "assets/rosie.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Caniland Angus Beef Throat Chews 100g",
+        "price": 189,
+        "image": "assets/caniland.jpg"
+    },
+    {
+        "id": 11,
+        "name":"Rocco Natural Dried Cows' Ear x 10",
+        "price": 299,
+        "image": "assets/rocco.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Wolf of Wilderness Mini Bites - Chicken 85g",
+        "price": 250,
+        "image": "assets/wolf.jpg"
+    }
+]

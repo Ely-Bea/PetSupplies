@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chonky Treatos</title>
+    <link rel="icon" type="image/x-icon" href="assets/brand-icon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <div class="site-title">
+                <img src="assets/brand-icon.png" style="width: 2vw; height: 2vw; object-fit: cover;">
+                <h2>Chonky
+                    <span style="color: #4A686A;">Treatos</span>
+                </h2>
+            </div>
+            <div class="search"><input type="text" placeholder="Search Products"><button>SEARCH</button></div>
+            <ul>
+                <li><a href="#" id="home-link">Home</a></li>
+                <li><a href="#" id="sign-in-link">Sign in</a></li>
+                <li><a href="#" id="cart-link"><img class="icon" src="assets/cart.png" style="width: 1.5vw; height: 1.5vw; 
+                    object-fit: cover; background-color: white; border-radius: 20px; padding: 10px;"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <img class="homesildes" src="assets/homepage.png">
+            <div class="promo" id="myDIV">
+                <div>
+                    <p style="font-size: 2vw; border-right: 5px solid white;">%</p>
+                    <p><span style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: black;">Unlock Exciting Freebies! 🎁</span>
+                    Make your first purchase and receive a special freebie as our gift to you! Explore 
+                    our collection and enjoy a surprise treat with your order. Shop now and experience the joy of free goodies!
+                    </p>
+                </div>
+            </div>
+            <div class="home">
+                <div class="homepage-text">
+                    <h2 class="homeimg-text">COMMITTED TO PROVIDING QUALITY SUPPLIES FOR YOUR BELOVED PETS</h2>
+                    <p>Be the favorite <span style="color: #4A686A; font-family: cursive; font-weight: bold;">HOOMAN</span>, start with choosing the best!</p>
+                    <button><a href="#shop" style="color: black;">SHOP NOW</a></button>
+                </div>
+                
+                <div class="home-products">
+                    <h2>Popular Now</h2>
+                    <div class="cardsrow" id="popular"></div>
+                </div>
+                <div class="home-products">
+                    <h2>Discounted Products</h2>
+                    <div class="cardsrow" id="discounted"></div>
+                </div>
+                <div class="home-products" id="shop">
+                    <h2>Shop by Categories</h2>
+                    <div class="cardsgrid">
+                        <div class="category1" id="food-btn">
+                            <img class="category-img" src="assets/cat1.png">
+                            <h3>foods</h3>
+                        </div>
+                        <div class="category2" id="treats-btn">
+                            <img class="category-img" src="assets/cat2.png">
+                            <h3>treats</h3>
+                        </div>
+                        <div class="category3" id="hygiene-btn">
+                            <img class="category-img" src="assets/cat3.png">
+                            <h3>hygiene</h3>
+                        </div>
+                        <div class="category4" id="supplies-btn">
+                            <img class="category-img" src="assets/cat4.png">
+                            <h3>supplies</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews">
+                    <h3>HEAR IT FROM OUR CUSTOMERS</h3>
+                    <div>
+                        <p>⭐⭐⭐⭐⭐: I absolutely love this pet shop! The selection of food and toys is amazing, and I found everything I needed for my dog in one place. 
+                            Plus, the prices are very reasonable. Highly recommend!</p>
+                        <p>⭐⭐⭐: Great variety of products! I was impressed with the selection of natural pet foods. 
+                            The only reason I’m giving four stars is that I wish they had more options for small animals. Overall, a wonderful shopping experience!</p>
+                        <p>⭐⭐⭐⭐⭐: They have everything from high-quality food to fun toys. Can’t recommend them enough.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="support" id="support" style="display: none;">
+            <h1 style="font-size: 2vw; font-family: Verdana, Geneva, Tahoma, sans-serif;">SUPPORT</h1>
+            <div class="faqs" id="support-faqs">
+                <h2 style="margin: 3vw 0;">FREQUENTLY ASKED QUESTIONS</h2>
+                <div class="tabs">
+                    <h3>Delivery</h3>
+                    <input type="checkbox" id="accordion1" class="accordion-input">
+                    <label for="accordion1" class="tab-label">How does Delivery Service work?</label>
+                    <div class="tab-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                    <input type="checkbox" id="accordion2" class="accordion-input">
+                    <label for="accordion2" class="tab-label">Do you ship in this location?</label>
+                    <div class="tab-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                    <input type="checkbox" id="accordion3" class="accordion-input">
+                    <label for="accordion3" class="tab-label">Help! My Order hasn't arrived. Who can I contact?</label>
+                    <div class="tab-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                </div>
+
+                <div class="tabs">
+                    <h3>Returns</h3>
+                    <input type="checkbox" id="accordion4" class="accordion-input">
+                    <label for="accordion4" class="tab-label">I want to return this item. What should I do?</label>
+                    <div class="tab-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                    <input type="checkbox" id="accordion5" class="accordion-input">
+                    <label for="accordion5" class="tab-label">Which items can be return?</label>
+                    <div class="tab-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                    <input type="checkbox" id="accordion6" class="accordion-input">
+                    <label for="accordion6" class="tab-label">Do I have to shoulder the return fee?</label>
+                    <div class="tab-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact" id="support-contact">
+                <h2 style="margin: 3vw 0;">CONTACT US</h2>
+                <div class="contact-body">
+                    <div class="message">
+                        <h3>How can we help?</h3>
+                        <input class="email-input" type="email" placeholder="Enter your email"/>
+                        <textarea class="message-input" rows="50" cols="10" placeholder="Leave a Comment"></textarea>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <ul>
+                            <li>(+63) 994 881 2660</li>
+                            <li>(+63) 953 229 4268</li>
+                            <li>ChonkyTreatos@gmail.com</li>
+                            <li>facebook.com/chonkytreatos</li>
+                            <li>instagram.com/chonkytreatos</li>
+                            <li>twitter.com/chonkytreatos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="terms" id="support-terms">
+                <h2>TERMS AND CONDITIONS</h2>
+                <div class="terms-body">
+                    <p>Welcome to Chonky Treatos! By using our website and services, you agree to comply with the following terms and conditions. Please read them carefully.</p>
+            
+                    <h2>1. Returns and Refunds</h2>
+                    <p>At Chonky Treatos, we strive to provide high-quality products. If you are not satisfied with your purchase, you may return it within 30 days of receiving your 
+                        order for a full refund. To be eligible for a return, the item must be unused, in its original packaging, and accompanied by a receipt or proof of purchase.</p>
+                    <p>To initiate a return, please contact our customer service at <a href="mailto:ChonkyTreatos@gmail.com">ChonkyTreatos@gmail.com</a>. 
+                        Refunds will be processed within 7-10 business days after we receive the returned item.</p>
+            
+                    <h2>2. Delivery</h2>
+                    <p>We aim to process and ship orders within 2-3 business days. Delivery times may vary based on your location. Once your order is shipped, 
+                        you will receive a tracking number to monitor its progress.</p>
+                    <p>Please ensure that your shipping address is correct, as we are not responsible for delays or issues caused by incorrect addresses.</p>
+            
+                    <h2>3. Accuracy of Information</h2>
+                    <p>We take great care in providing accurate and up-to-date information about our products, including descriptions, images, and pricing. 
+                        However, errors may occur. If you notice any discrepancies, please contact us immediately.</p>
+                    <p>Chonky Treatos reserves the right to correct any errors and to change or update information without prior notice. Prices are subject to change.</p>
+            
+                    <h2>4. Discounts and Freebies</h2>
+                    <p>Chonky Treatos occasionally offers discounts and promotional offers. These may include percentage-off promotions, buy-one-get-one-free offers, and seasonal sales.</p>
+                    <p><strong>Freebies for First Purchase</strong>: As a special welcome, customers making their first purchase will receive a complimentary treat with their order.
+                         This offer is automatically applied at checkout and cannot be combined with other discounts or promotions.</p>
+                    <p>Please note that discounts and promotions are subject to change and may have specific expiration dates or conditions.</p>
+            
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions about these Terms and Conditions, please contact us at:</p>
+                    <p>Email: <a href="mailto:ChonkyTreatos@gmail.com">ChonkyTreatos@gmail.com</a></p>
+            
+                    <p>Thank you for choosing Chonky Treatos!</p>
+            </div>
+        </section>
+        
+        <section class="product-page" id="product-page" style="display: none;">
+            <h2>CATEGORY</h2>
+            <div class="product-page-container">
+                <div class="product-page-col1">
+                    <ul>
+                        <li id="category-foods">Pet Foods</li>
+                        <li id="category-treats">Treats</li>
+                        <li id="category-hygiene">Health and Hygiene</li>
+                        <li id="category-supplies">Supplies and Toys</li>
+                    </ul>
+                </div>
+                    <div class="products-grid" id="active-products"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="col1">
+                <h4 class='about-shop'>ABOUT THE SHOP</h4>
+                <p>At ChonkyTreatos, we believe that every pet deserves a treat as unique and special as they are. Founded by passionate 
+                    pet lovers, our mission is to provide high-quality, wholesome treats that keep your furry friends happy and healthy.</p>
+
+                <p>Our journey began with a simple idea: to provide delicious snacks that are not only tasty but also nutritious. 
+                    Whether your pet is a chonky cat, a playful pup, or any other beloved companion, we have something for everyone!</p>
+            </div>
+            <div class="col2">
+                <h4 class='payment'>SUPPORT</h4>
+                <uL id="support-link">
+                    <li id="faqs">FAQs</li>
+                    <li id="contact">Contact</li>
+                    <li id="terms">Terms and Conditions</li>
+                </uL>
+            </div>
+            <div class="col3">
+                <h4 class='payment'>PAYMENT</h4>
+                <div>
+                    <img class="icon" src="assets/gcash.png">
+                    <img class="icon" src="assets/paymaya.png">
+                    <img class="icon" src="assets/bpi.png">
+                </div>
+                <h4 class="payment" style="padding-top: 1vw;">FIND US ON</h4>
+                <div>
+                    <img class="icon" src="assets/fb.png">
+                    <img class="icon" src="assets/ig.png">
+                    <img class="icon" src="assets/x.png">
+                </div>
+            </div>
+        </div>
+        <div class='copyright'>© 2024 ChonkyTreatos. All Rights Reserved</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

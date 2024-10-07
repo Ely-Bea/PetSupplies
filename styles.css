@@ -1,0 +1,561 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #fffadb;
+    cursor: default;
+}
+
+.nav{
+    display: flex;
+    height: 3vw;
+    padding: 10px 10vw;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+}
+
+.site-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    cursor: default;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.site-title h2{
+    font-size: 1vw;
+    width: 50%;
+    color: #FDB137;
+}
+
+.search{
+    align-content: center;
+}
+
+.search button{
+    border: 1px solid black;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #FDB137;
+    color: white;
+    padding: 0.5vw;
+    cursor: pointer;
+}
+
+.search button:hover{
+    background-color: #eb9100;
+}
+
+.search input{
+    padding: 0.5vw;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid black;
+    border-right: none;
+    width: 20vw;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #4A686A;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.nav li{
+    display: inline;
+    list-style: none;
+    padding: 20px;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/*---------------------------------------------------HOME-----------------------------------------------------------*/
+
+.home{
+    padding: 0 7vw;
+}
+
+section img{
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.homepage-text{
+    position: absolute;
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    width: 45%;
+    top: 25vw;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.homepage-text button{
+    border: 2px solid #6c5e41;
+    color: black;
+    text-decoration: underline;
+    background-color: transparent;
+    padding: 1vw;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+#myDIV {
+    animation: mymove 3s infinite;
+    animation-direction: alternate;
+}
+  
+  @keyframes mymove {
+    from {background-color: #FDB137;}
+    to {background-color: maroon;}
+}
+
+.promo{
+    color: white;
+    margin: 10px;
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.promo div{
+    border: 5px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: start;
+}
+
+.promo p{
+    margin: 0;
+    padding: 10px;
+    font-size: 0.9vw;
+    font-weight: bolder;
+}
+
+.home-products{
+    text-align: start;
+    margin: 2vw 4vw;
+    padding: 2vw 1vw;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-products h2{
+    color: #4A686A;
+    border-bottom: 5px solid #4A686A;
+    padding-bottom: 1vw;
+}
+
+.home-products a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.cardsrow{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cards{
+    align-items: start;
+    background-color: white;
+    border: 1px solid gray;
+    width: 15vw;
+    margin: 1vw;
+    height: auto;
+    padding: 1vw 1vw 3vw 1vw;
+    box-shadow: 5px 5px 7px rgb(170, 170, 170);
+    font-size: 0.7vw;
+    color: #4A686A;
+}
+
+.cards h4,
+.cards h3{
+    text-align: start;
+    width: 100%;
+}
+
+.home-products img{
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.cardsgrid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 35vw 35vw;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 2vw 1vw;
+}
+
+.category4,
+.category3,
+.category2,
+.category1{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    background: rgb(254,234,165);
+    background: linear-gradient(180deg, rgba(254,234,165,1) 0%, rgba(255,244,207,1) 50%, rgba(253,177,55,1) 100%);
+    color: #4A686A;
+    margin: 1vw;
+    padding: 1vw;
+    font-size: 2.5vw;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.category4:hover,
+.category3:hover,
+.category2:hover,
+.category1:hover{
+    background: #ffc300;
+    color: white;
+}
+
+.cardsgrid img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    padding: 0 1vw;
+    filter:drop-shadow(5px 5px rgba(0, 0, 0, 0.438));
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 7vw 4vw;
+    background-color: rgb(231, 231, 159);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2vw 3vw;
+    color: #4A686A;
+
+}
+
+.reviews div{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+}
+
+.reviews h3{
+    font-size: 2vw;
+    font-weight: bolder;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.reviews p{
+    background-color: #4A686A;
+    color: white;
+    margin: 0 1vw;
+    padding: 2vw 3vw;
+    font-size: 1.3vw;
+    width: 100%;
+    align-content: start;
+}
+
+/*----------------------------------------------FOOTER----------------------------------------------------------------*/
+
+.footer {
+    color: black;
+    background: #ffc300;
+    width: 100%;
+    padding: 1vw 0;
+    display: grid;
+    grid-template-columns: repeat(3, 20vw);
+    gap: 5vw;
+    text-align: start;
+    justify-content: center;
+    justify-items: center;
+    align-items: flex-start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.about-shop {
+    font-size: 1vw;
+}
+
+.col1 p{
+    font-size: 0.8vw;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.col2 ul{
+    list-style: none;
+    padding: 0;
+    font-size: 1vw;
+}
+
+.col2 li{
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.col2 li:hover{
+    padding: 5px 0;
+    color: #4A686A;
+}
+
+.payment {
+    font-size: 1vw;
+    justify-content: center;
+}
+
+.col3 img {
+    width: 2vw;
+    height: 2vw;
+    padding-right: 1vw;
+}
+
+.copyright {
+    padding: 1vh;
+    color: white;
+    background-color: #ae8507;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*-----------------------------------------------SUPPORT---------------------------------------------------------------*/
+
+.support{
+    background-color: white;
+    padding: 1vw 15vw;
+    color: #4A686A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.faqs{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 2vw;
+    margin: 5vw 0;
+}
+
+.tabs{
+    margin-bottom: 2vw;
+}
+
+.accordion-input {
+    display: none;
+}
+
+.tab-label {
+    display: block;
+    color: #4A686A;
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+
+}
+
+
+.tab-label:hover {
+    background-color: #fff7c3;
+}
+
+.tab-content {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-height: 0;
+    display: none;
+
+}
+
+.accordion-input:checked + .tab-label + .tab-content {
+    display: flex;
+    max-height: 1000px;
+    padding: 15px;
+}
+
+.contact{
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 2vw;
+    margin: 5vw 0;
+}
+
+.contact-body{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 2vw;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    background-color: #fffadb;
+    padding: 1vw 2vw;
+}
+
+.email-input{
+    padding: 1vw;
+    margin: 1vw 0;
+    width: 20vw;
+    outline: none;
+}
+
+.message-input{
+    margin: 1vw 0;
+    font-size: 0.8vw;
+    width: 35vw;
+    height: 20vw;
+    outline: none;
+}
+
+.message textarea:focus,
+.message input[type=email]:focus {
+    border: 2px solid #4A686A;
+  }
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-self: flex-start;
+    border: 1px solid #4A686A;
+    padding: 1vw;
+    width: 100%;
+    height: 30.5vw;
+}
+
+.contact-info li,
+.contact-info ul{
+    list-style: none;
+    color: black;
+    padding: 0.5vw 0.5vw;
+}
+
+.terms{
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 2vw;
+    margin: 5vw 0;
+}
+
+.terms-body {
+    background: white;
+    padding: 20px;
+}
+
+.terms h1, h2 {
+    color: #4A686A;
+}
+
+.terms a {
+    color: #4A686A;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+/*-----------------------------------------------PRODUCT PAGE---------------------------------------------------------------*/
+
+.product-page{
+    margin: 5vw 15vw;
+}
+
+.product-page h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vw;
+}
+
+.product-page-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.product-page-col1 ul,
+.product-page-col1{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    width: 12vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.product-page-col1 li{
+    padding: 1vw 0.5vw;
+    margin: 0.5vw 0;
+    font-size: 1.1vw;
+    cursor: pointer;
+}
+
+.product-page li:hover{
+    background-color: #ffef84;
+    font-style: italic;
+}
+
+.products-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1vw;
+}
+
+.products-grid img{
+    width: 100%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.product-cards{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 2vw 1.5vw 3vw 1.5vw;
+    color: #4A686A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    margin: 1vw;
+}
+
+.product-cards h4,
+.product-cards h3{
+    text-align: start;
+    width: 100%;
+}
+
+.product-cards button{
+    background-color: #4A686A;
+    color: white;
+    border: none;
+    padding: 0.5vw;
+    font-size: 0.7vw;
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Toeicat Cat Instinctive Wet Food 1kg",
+        "price": 81,
+        "image": "assets/toei.jpg"
+    },
+    {
+        "id": 2,
+        "name":"Royal Canin Sensible Kitten Dry Food 1.5kg",
+        "price": 300,
+        "image": "assets/royalcanine.jpg"
+    },
+    {
+        "id": 3,
+        "name":"Me-o Cat Food Coat Care All Sizes 85g",
+        "price": 74,
+        "image": "assets/me-o.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Pedigree Ault Dog Food Chicken, Liver & Vegetable Flavour 1kg",
+        "price": 305,
+        "image": "assets/pedigree-food.jpg"
+    },
+    {
+        "id": 4,
+        "name":"SmartHeart Adult Chicken and Tuna Dry Cat Food 1.2kg",
+        "price": 300,
+        "image": "assets/smart.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Advance Veterinary Diets Recovery 2kg",
+        "price": 1050,
+        "image": "assets/advance.jpg"
+    }
+]
